@@ -1,0 +1,90 @@
+html {
+  font-size: 100%;
+}
+body{
+  margin: 0;
+	padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+img{
+  width:100%;
+}
+article{
+  line-height:1.5em;
+}
+.container_onepager {
+	display: grid;
+	grid-template-columns: 450px 500px 500px;
+	grid-rows: 3;
+  max-width:90em;
+  margin:auto;
+  border:1px solid red;
+}
+.visitekaartje{
+  grid-column:1;
+  grid-row:1;
+  background-color:darkkhaki;
+  padding:10px;
+}
+.logo{
+      width:85%;
+      margin-left:20px;
+}
+.links{
+  float:left;
+  margin-left:20px;
+}
+.rechts{
+  float:left;
+  margin-left:50px;
+}
+p{
+ color:white;
+ font-size:0.9em;
+ line-height:1.5em;
+ margin-bottom:10px;
+}
+.zakken{
+  margin-top:28px;
+}
+.portret{
+  grid-column:1;
+  grid-row:2;
+}
+.intro{
+  grid-column:1;
+  grid-row:3;
+  padding:10px;
+}
+.werk1{
+  grid-column:2;
+  grid-row:1;
+  background-color:PEACHPUFF;
+}
+.werk2{
+  grid-column:2;
+  grid-row:2;
+  background-color:black;
+}
+.werk3{
+  grid-column:2;
+  grid-row:3;
+  background-color:lightgray;
+}
+.werk4{
+  grid-column:3;
+  grid-row:1;
+  background-color:PALETURQUOISE
+
+;
+}
+.werk5{
+  grid-column:3;
+  grid-row:2;
+  width:70%;
+}
+.werk6{
+  grid-column:3;
+  grid-row:3;
+  background-color:green;
+}
